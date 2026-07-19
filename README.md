@@ -1,9 +1,6 @@
 # Aetherix
 
-A cross-platform toolkit for building **real-mode (16-bit) bootloaders,
-protected-mode (32-bit) kernels, and bootable disk images** — with a
-self-contained C core (its own byte-level x86 instruction encoder, no
-nasm/ld dependency) driven entirely from a Python API.
+A Python-native operating system development framework for building bootable x86 and x86_64 systems. Aetherix supports both legacy BIOS and modern UEFI firmware, generates machine code directly through its own native encoder, and provides high-level APIs alongside low-level instruction control.
 
 ```python
 from aetherix import Project
